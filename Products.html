@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--^======= Favicons ======= -->
+    <link href="./images/Logo.jpg.png" rel="icon" />
+    <link href="imgs/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!--^======= Vendor CSS Files ======= -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--^======= Main CSS File ======= -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Products-ALHANAA</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar" tabindex="0">
+    <!-- ?======================= START NAVBAR ====================== -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fs-3" href="index.html"> AL-HANAA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars nav-icon btn__menu__open"></i>
+          <i class="fa-solid fa-xmark nav-icon btn__menu__close"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link p-0 active" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-0"
+                href="./portfolio-details.html"
+                target="_blank"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0" href="#blog">blog</a>
+            </li>
+            <!--&---- start Dropdown -->
+            <li class="nav-item dropdown">
+              <!-- <a class="nav-link p-0 dropdown-toggle" href="#" role="button" data-bs-auto-close="outside" -->
+              <a
+                class="nav-link p-0"
+                href="#"
+                role="button"
+                data-bs-auto-close="outside"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Drop down
+                <i class="fa-solid fa-chevron-down ms-1 dropdown__icon"></i>
+              </a>
+              <ul class="dropdown-menu text-capitalize">
+                <li>
+                  <a class="dropdown-item" href="#testimonials">Drop down 1</a>
+                </li>
+                <!--&---- start Dropdown submenu -->
+                <li class="dropstart">
+                  <a
+                    class="dropdown-item position-relative"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                  >
+                    <span>Deep Drop Down</span>
+                    <i
+                      class="fa-solid fa-chevron-right position-absolute dropdown__icon dropdown__icon__right"
+                    ></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown__submenu">
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--&---- end Dropdown submenu -->
+                <!-- <li><a class="dropdown-item" href="#counters">Drop down 2</a></li>
+                            <li><a class="dropdown-item" href="#">Drop down 3</a></li>
+                            <li><a class="dropdown-item" href="#">Drop down 4</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ?======================= START HOME ====================== -->
+    <section
+      id="home"
+      class="home bg__image d-flex justify-content-center align-items-center"
+    >
+      <div class="container">
+        <div
+          class="text-center d-flex flex-column align-items-sm-start my-head"
+        >
+          <h1 class="hero__title text-light">Products</h1>
+          <h2 class="typing__subtitle position-relative text-light mt-2">
+          </h2>
+        </div>
+      </div>
+    </section>
+  <!-- ?======================= START Products ====================== -->
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="my-pargraph">
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              minima voluptates quisquam mollitia laboriosam vitae ab
+              exercitationem, esse incidunt odio recusandae magnam quas ipsum
+              aut accusantium at a illum laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-sm-12">
+            <div class="my-card c-border1">
+                <img src="./images/chamomile.jpg" class="w-100"  alt="">
+                <h2>Chamomile</h2>
+                <h6>Herbs</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat dicta enim in, nemo quo ea corporis velit eos dolorum non vel! Deleniti veniam repellendus ipsam tempore blanditiis? Magnam, numquam.</p>
+            </div>
+        </div>
+        <div class="col-xl-4 col-sm-12">
+            <div class="my-card c-border2">
+                <img src="./images/banjer.jpg" class="w-100"  alt="">
+                <h2>Beet</h2>
+                <h6>Vegetables</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat dicta enim in, nemo quo ea corporis velit eos dolorum non vel! Deleniti veniam repellendus ipsam tempore blanditiis? Magnam, numquam.</p>
+            </div>
+        </div>
+        <div class="col-xl-4 col-sm-12">
+            <div class="my-card c-border3">
+                <img src="./images/orange (2).jpg" class="w-100"  alt="">
+                <h2>Orange</h2>
+                <h6>Fruits</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat dicta enim in, nemo quo ea corporis velit eos dolorum non vel! Deleniti veniam repellendus ipsam tempore blanditiis? Magnam, numquam.</p>
+            </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-xl-4 col-sm-12">
+            <div class="my-card c-border4">
+                <img src="./images/grape (2).jpg" class="w-100"  alt="">
+                <h2>Grapes</h2>
+                <h6>Fruits</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat dicta enim in, nemo quo ea corporis velit eos dolorum non vel! Deleniti veniam repellendus ipsam tempore blanditiis? Magnam, numquam.</p>
+            </div>
+        </div>
+        <div class="col-xl-4 col-sm-12">
+            <div class="my-card c-border5">
+                <img src="./images/Palms.jpg" class="w-100"  alt="">
+                <h2>Dates</h2>
+                <h6>Fruits</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat dicta enim in, nemo quo ea corporis velit eos dolorum non vel! Deleniti veniam repellendus ipsam tempore blanditiis? Magnam, numquam.</p>
+            </div>
+        </div>
+        <div class="col-xl-4 col-sm-12">
+            <div class="my-card c-border6">
+                <img src="./images/mango.jpg" class="w-100"  alt="">
+                <h2>Mango</h2>
+                <h6>Fruits</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat dicta enim in, nemo quo ea corporis velit eos dolorum non vel! Deleniti veniam repellendus ipsam tempore blanditiis? Magnam, numquam.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+        <!-- ?======================= START FOOTER ====================== -->
+        <footer class="footer py-4 mt-5">
+            <div class="container d__flow-root">
+                <div class="copyright__box text-center">
+                    <p class="copyright mb-2">© Copyright <span class="fw-bold">ALHANAA</span>. All Rights Reserved</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <i class="fa-brands fa-facebook p p-2 my-icon"></i>
+                                <i class="fa-brands fa-twitter  p-2 my-icon"></i>
+                                <i class="fa-brands fa-instagram p-2 my-icon"></i>
+                                <i class="fa-brands fa-linkedin p-2 my-icon"></i>    
+                            </div
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!--^======= JS Files ======= -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
