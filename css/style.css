@@ -391,14 +391,14 @@ section.home {
 .service__card:hover .card__icon {
   color: var(--color-white);
   background-color: var(--color-green);
-  box-shadow: 0 0 0 10px var(--color-blue-alt);
+  box-shadow: 0 0 0 10px var(--color-green);
   transition: all var(--transition-05) ease;
 }
 
 .service__card .card__icon {
   color: var(--color-black);
   background-color: var(--color-white);
-  box-shadow: 0 0 0 10px var(--color-green);
+  box-shadow: 0 0 0 10px #275e3375;
 }
 .service__card .services__card__title {
   font-weight: 500;
@@ -421,7 +421,7 @@ section.home {
   color: var(--color-white);
 }
 .counters .card__icon {
-  box-shadow: 0 0 0 10px var(--color-green);
+  box-shadow: 0 0 0 10px rgba(255, 166, 0, 0.564);
   font-size: 1.5rem;
   width: 60px;
   height: 60px;
