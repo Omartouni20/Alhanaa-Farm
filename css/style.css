@@ -421,7 +421,7 @@ section.home {
   color: var(--color-white);
 }
 .counters .card__icon {
-  box-shadow: 0 0 0 10px var(--color-blue-alt);
+  box-shadow: 0 0 0 10px var(--color-green);
   font-size: 1.5rem;
   width: 60px;
   height: 60px;
