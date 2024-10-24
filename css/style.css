@@ -552,6 +552,10 @@ section.home {
   margin-inline: 15px;
   box-shadow: 0 0 0 4px var(--color-blue);
   transition: all var(--transition-05) ease;
+  -webkit-transition: all var(--transition-05) ease;
+  -moz-transition: all var(--transition-05) ease;
+  -ms-transition: all var(--transition-05) ease;
+  -o-transition: all var(--transition-05) ease;
 }
 .contact .ico-circle:hover {
   background-color: var(--color-blue);
@@ -696,4 +700,53 @@ font-weight: bolder;
 }
 .since {
   color: var(--bg-footer) !important;
+}
+.since p {
+  animation-duration: 3s;
+  animation-name: slide-out;
+}
+.since h3 {
+  animation-duration: 2s;
+  animation-name: slide-in;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+@keyframes slide-out {
+  from {
+    translate: -150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+ }
+}
+@keyframes slide-down {
+  from {
+    transform: translateY(-150%);
+    scale: 200% 1;
+
+}
+
+  to {
+    transform: translateY(0%);
+    scale: 100% 1;
+
+}
+}
+.my-logo {
+  animation-name: slide-down ;
+  animation-duration: 2s;
+  
 }
