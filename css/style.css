@@ -659,11 +659,14 @@ section.home {
   border: 3px solid #C69E87;
   border-radius: 20px;
   height: 700px;
+  margin: 20px 0;
 }
 .c-border2 {
   border: 3px solid green;
   border-radius: 20px;
   height: 700px;
+  margin: 20px 0;
+
 }
 .c-border2 h2 {
   color: green !important;
@@ -672,12 +675,19 @@ section.home {
   border:3px solid orange;
   border-radius: 20px;
   height: 700px;
+  margin: 20px 0;
+
 }
 .c-border3 h2 {
   color: orange !important;
 }
 
-
+.c-border4 {
+  margin: 20px 0;
+}
+.c-border5 {
+  margin: 20px 0;
+}
 .my-card h2 , h6 , p  {
 padding-left: 15px;
 padding-top: 15px;
@@ -708,6 +718,10 @@ font-weight: bolder;
 .since h3 {
   animation-duration: 2s;
   animation-name: slide-in;
+}
+.my-logo {
+  animation-name: slide-down ;
+  animation-duration: 2s;
 }
 
 @keyframes slide-in {
@@ -744,9 +758,4 @@ font-weight: bolder;
     scale: 100% 1;
 
 }
-}
-.my-logo {
-  animation-name: slide-down ;
-  animation-duration: 2s;
-  
 }
