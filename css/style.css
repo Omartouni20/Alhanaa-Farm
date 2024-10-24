@@ -16,10 +16,10 @@
   --transition-05: 0.5s;
   --transition-1: 1s;
 
-  --des-letter: 8;
+  --des-letter: 3;
   --dev-letter: 9;
-  --fre-letter: 10;
-  --pho-letter: 12;
+  --fre-letter: 11;
+  /* --pho-letter: 8; */
   --letters-typing-px: 24px;
 }
 /*?----------------- General --------------------------*/
@@ -296,6 +296,7 @@ section.home {
   height: 100%;
   background-color: var(--color-white);
   animation: fide 0.5s infinite;
+  -webkit-animation: fide 0.5s infinite;
 }
 
 .typing__subtitle__item {
@@ -311,9 +312,10 @@ section.home {
 .typing__subtitle__item:nth-child(3) {
   animation: typing3 15s infinite steps(var(--fre-letter));
 }
-.typing__subtitle__item:nth-child(4) {
+/* .typing__subtitle__item:nth-child(4) {
   animation: typing4 15s infinite steps(var(--pho-letter));
-}
+} */
+
 
 @keyframes fide {
   0%,
@@ -759,6 +761,6 @@ font-weight: bolder;
 
 }
 }
-.my-links a {
+.my-links  {
   color: #fff;
 }
